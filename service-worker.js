@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/johnny_promil_v2/precache-manifest.d7fab8a531c988e0dc4e10772da5bd6f.js"
+  "/Johnny_Promil_v2/precache-manifest.e0e15133b4db32b96fb65f20354c66bc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/johnny_promil_v2/index.html", {
+workbox.routing.registerNavigationRoute("/Johnny_Promil_v2/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
