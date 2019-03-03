@@ -1,54 +1,79 @@
 import React, { Component } from 'react';
-import { Button, ButtonToolbar, Jumbotron, Container, Row, Navbar, Nav, Form, FormControl, NavDropdown } from 'react-bootstrap';
-import logo from './logo.svg';
+import { Button, Card, Jumbotron, Container, CardDeck, Navbar, Nav, Form, FormControl, NavDropdown } from 'react-bootstrap';
 import './App.css';
+import twoBeers from './580b57fbd9996e24bc43c090.png'
+import oneBeer from './580b57fbd9996e24bc43c091.png'
+// import LogoNodejs from 'react-ionicons/lib/LogoNodejs';
 
 class App extends Component {
   render() {
+    const jumbotronStyle = {
+      backgroundColor: "#f2f2f2",
+      // padding: "0px",
+      margin: "0px"
+    };
+
+    const jumbotronStyle2 = {
+      backgroundColor: "#e6e6e6",
+      // padding: "0px",
+      margin: "0px"
+    };
+
     return (
       <div className="App">
-
 
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
             <Navbar.Brand href="#home">Johnny Promil</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
-              <Nav className="mr-auto">
-                <Nav.Link href="#home">Główna</Nav.Link>
-                <Nav.Link href="#link">Oferta</Nav.Link>
-                <Nav.Link href="#kontakt">Kontakt</Nav.Link>
-                {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-              </NavDropdown> */}
+              <Nav className="mr-auto justify-content-end">
+                <Nav.Link href="#home"><Button variant="warning">Główna</Button></Nav.Link>
+                <Nav.Link href="#link"><Button variant="warning">Oferta</Button></Nav.Link>
+                <Nav.Link href="#kontakt"><Button variant="warning">Kontakt</Button></Nav.Link>
               </Nav>
-              {/* <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-success">Search</Button>
-            </Form> */}
             </Navbar.Collapse>
           </Container>
         </Navbar>
 
-        <Jumbotron fluid>
+        <Jumbotron style={jumbotronStyle} fluid>
           <Container>
-            <h1>Hello, world!</h1>
-            <p>
-              This is a simple hero unit, a simple jumbotron-style component for calling
-              extra attention to featured content or information.
-          </p>
-            <p>
-              <Button variant="primary">Learn more</Button>
-            </p>
+            <CardDeck>
+              <Card bg="info" text="white" className="text-center p-4">
+                <Card.Img src={twoBeers}></Card.Img>
+                Text
+            </Card>
+              <Card bg="info" text="white" className="text-center p-1">
+                <Card.Img src={oneBeer} style={{ width: '5rem' }}></Card.Img>
+                Text
+            </Card>
+              <Card bg="info" text="white" className="text-center p-4">
+                Text
+            </Card>
+            </CardDeck>
+          </Container>
+        </Jumbotron>
+
+        <Jumbotron style={jumbotronStyle2} fluid>
+          <Container>
+            <CardDeck>
+              <Card bg="info" text="white" className="text-center p-4">
+                Text
+            </Card>
+              <Card bg="info" text="white" className="text-center p-4">
+                Text
+            </Card>
+              <Card bg="info" text="white" className="text-center p-4">
+                Text
+            </Card>
+            </CardDeck>
           </Container>
         </Jumbotron>
       </div>
     );
   }
 }
+
+//<a href="https://www.freepik.com/free-photos-vectors/icon">Icon vector created by winkimages - www.freepik.com</a>
 
 export default App;
