@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Johnny_Promil_v2/static/css/main.1970539e.chunk.css"
   },
   {
-    "revision": "165bab63b92ef9437ce48fd2bbc6a20a",
+    "revision": "c5aae95d1a54238457dba66e7db601da",
     "url": "/Johnny_Promil_v2/index.html"
   }
 ];
