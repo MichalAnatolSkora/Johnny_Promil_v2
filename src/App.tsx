@@ -58,7 +58,7 @@ class App extends Component {
 
         <Jumbotron style={headerJumbotronStyle} fluid>
           <Container>
-            <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d626.1522285232337!2d17.05488071135112!3d51.11567543726553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9d3d97cf061%3A0xc08116d71816dd97!2sG%C3%B3rnickiego+6%2C+50-337+Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1551622751662" frameBorder="0" style={{ border: "0" }} allowFullScreen></iframe>
+            <iframe width="100%" height="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d626.1522285232337!2d17.05488071135112!3d51.11567543726553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9d3d97cf061%3A0xc08116d71816dd97!2sG%C3%B3rnickiego+6%2C+50-337+Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1551622751662" frameBorder="0" style={{ border: "2" }} allowFullScreen></iframe>
           </Container>
         </Jumbotron>
 
