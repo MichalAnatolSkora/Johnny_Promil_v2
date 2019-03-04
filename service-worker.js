@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Johnny_Promil_v2/precache-manifest.9002e2df121214f14ca6db5f02d3db77.js"
+  "/Johnny_Promil_v2/precache-manifest.edf483ba10e6aad6b0716995e188031d.js"
 );
 
 workbox.clientsClaim();
