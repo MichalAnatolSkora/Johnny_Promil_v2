@@ -8,20 +8,21 @@ import { GoogleMap, Marker, withGoogleMap, withScriptjs } from "react-google-map
 class App extends Component {
   render() {
     const headerJumbotronStyle = {
-      backgroundColor: "#f2f2f2",
-      paddingTop: "100px",
+      backgroundColor: "transparent",
+      paddingTop: "80px",
       margin: "0px"
     };
 
     const jumbotronStyle = {
-      backgroundColor: "#f2f2f2",
+      backgroundColor: "transparent",
       paddingTop: "0px",
+      paddingBottom: "20px",
       margin: "0px"
     };
 
     const footerJumbotronStyle2 = {
       backgroundColor: "#e6e6e6",
-      padding: "10px",
+      padding: "5px",
       margin: "0px"
     };
 
@@ -50,7 +51,7 @@ class App extends Component {
 
         <Jumbotron style={headerJumbotronStyle} fluid>
           <Container>
-            <Card bg="info" border="warning" text="white" className="text-center p-4">
+            <Card bg="light" border="warning" text="white" className="text-center p-4">
 
             </Card>
           </Container>
@@ -65,14 +66,14 @@ class App extends Component {
         <Jumbotron style={jumbotronStyle} fluid>
           <Container>
             <CardDeck>
-              <Card bg="info" text="white" className="text-center p-4">
+              <Card bg="light" text="white" className="text-center p-4">
                 <Card.Img src={twoBeers}></Card.Img>
                 Text
             </Card>
-              <Card bg="info" text="white" className="text-center p-4">
+              <Card bg="light" text="white" className="text-center p-4">
                 <Card.Img src={oneBeer} variant="bottom" style={{ width: '5rem' }}></Card.Img>
               </Card>
-              <Card bg="info" text="white" className="text-center p-4">
+              <Card bg="light" text="white" className="text-center p-4">
                 Text
             </Card>
             </CardDeck>
@@ -82,15 +83,15 @@ class App extends Component {
         <Jumbotron style={jumbotronStyle} fluid>
           <Container>
             <CardDeck>
-              <Card bg="info" text="white" className="text-center p-4">
+              <Card bg="light" text="white" className="text-center p-4">
                 <Card.Img src={twoBeers}></Card.Img>
                 Text
             </Card>
-              <Card bg="info" text="white" className="text-center p-1">
+              <Card bg="light" text="white" className="text-center p-1">
                 <Card.Img src={oneBeer} style={{ width: '5rem' }}></Card.Img>
                 Text
             </Card>
-              <Card bg="info" text="white" className="text-center p-4">
+              <Card bg="light" text="white" className="text-center p-4">
                 Text
             </Card>
             </CardDeck>
