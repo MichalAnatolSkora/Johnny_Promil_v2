@@ -4,9 +4,6 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 
-import twoBeers from './graphics/580b57fbd9996e24bc43c090.png'
-import oneBeer from './graphics/580b57fbd9996e24bc43c091.png'
-import beerToGlass from './graphics/beer-820011_640.jpg'
 import Index from './subSites/Index';
 import Shops from './subSites/Shops';
 import Products from './subSites/Products';
@@ -29,8 +26,9 @@ class App extends Component {
 
     const footerJumbotronStyle2 = {
       backgroundColor: "#e6e6e6",
-      padding: "5px",
-      margin: "0px"
+      padding: "20px",
+      margin: "0px",
+      bottom: "0px"
     };
 
     const cardStyle = {
@@ -42,7 +40,7 @@ class App extends Component {
         <div className="App">
           <Navbar fixed='top' bg="dark" variant="dark" expand="lg">
             <Container>
-              <Navbar.Brand href="#home"><Button variant="danger">Johnny Promil</Button></Navbar.Brand>
+              <NavLink className="nav-link" to="/"><Button variant="danger">Johnny Promil</Button></NavLink>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse>
                 <Nav className="mr-auto justify-content-end">
@@ -54,7 +52,7 @@ class App extends Component {
             </Container>
           </Navbar>
 
-          <Route path="/" exact component={Index} />
+          <Route path="/" component={Index} />
           <Route path="/oferta/" component={Products} />
           <Route path="/sklepy/" component={Shops} />
 
