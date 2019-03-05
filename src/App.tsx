@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Card, Jumbotron, Container, CardDeck, Navbar, Nav, Image, FormControl, NavDropdown } from 'react-bootstrap';
 import './App.css';
-import twoBeers from './580b57fbd9996e24bc43c090.png'
-import oneBeer from './580b57fbd9996e24bc43c091.png'
-import beerToGlass from './beer-820011_640.jpg'
-import { GoogleMap, Marker, withGoogleMap, withScriptjs } from "react-google-maps"
+import twoBeers from './graphics/580b57fbd9996e24bc43c090.png'
+import oneBeer from './graphics/580b57fbd9996e24bc43c091.png'
+import beerToGlass from './graphics/beer-820011_640.jpg'
 
 class App extends Component {
   render() {
