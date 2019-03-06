@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button, Card, Jumbotron, Container, CardDeck, Navbar, Nav, Image, FormControl, NavDropdown } from 'react-bootstrap';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import { HashRouter, Route, Link, NavLink } from "react-router-dom";
 
 import Index from './subSites/Index';
 import Shops from './subSites/Shops';
@@ -28,7 +28,7 @@ class App extends Component {
       backgroundColor: "#e6e6e6",
       padding: "20px",
       margin: "0px",
-      bottom: "0px"
+      bottom: "0"
     };
 
     const cardStyle = {
@@ -36,7 +36,7 @@ class App extends Component {
     }
 
     return (
-      <Router>
+    <HashRouter>
         <div className="App">
           <Navbar fixed='top' bg="dark" variant="dark" expand="lg">
             <Container>
@@ -45,24 +45,24 @@ class App extends Component {
               <Navbar.Collapse>
                 <Nav className="mr-auto justify-content-end">
                   <NavLink className="nav-link" to="/"><Button size="sm" variant="warning">Główna</Button></NavLink>
-                  <NavLink className="nav-link" to="/oferta"><Button size="sm" variant="warning">Oferta</Button></NavLink>
-                  <NavLink className="nav-link" to="/sklepy"><Button size="sm" variant="warning">Sklepy</Button></NavLink>
+                  <NavLink className="nav-link" to="/Oferta"><Button size="sm" variant="warning">Oferta</Button></NavLink>
+                  <NavLink className="nav-link" to="/Sklepy"><Button size="sm" variant="warning">Sklepy</Button></NavLink>
                 </Nav>
               </Navbar.Collapse>
             </Container>
           </Navbar>
 
-          <Route path="/" component={Index} />
-          <Route path="/oferta/" component={Products} />
-          <Route path="/sklepy/" component={Shops} />
+          <Route path="/" exact component={Index} />
+          <Route path="/Oferta/" component={Products} />
+          <Route path="/Sklepy/" component={Shops} />
 
           <Jumbotron style={footerJumbotronStyle2} fluid>
-            <Container>
+            <Container >
               Footer
           </Container>
           </Jumbotron>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
