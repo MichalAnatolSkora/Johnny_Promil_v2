@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/Johnny_Promil_v2/static/js/runtime~main.17d4ceeb.js"
   },
   {
-    "revision": "6365db036ae43e4a61d9",
-    "url": "/Johnny_Promil_v2/static/js/main.6365db03.chunk.js"
+    "revision": "de596cd027c841fedb8f",
+    "url": "/Johnny_Promil_v2/static/js/main.de596cd0.chunk.js"
   },
   {
     "revision": "6120a7a48fd0680d7ca1",
     "url": "/Johnny_Promil_v2/static/js/2.6120a7a4.chunk.js"
   },
   {
-    "revision": "6365db036ae43e4a61d9",
+    "revision": "de596cd027c841fedb8f",
     "url": "/Johnny_Promil_v2/static/css/main.0322b46f.chunk.css"
   },
   {
-    "revision": "036ca3349a01be97232d5b825d15a4fd",
+    "revision": "4b54fc4fbfa7bf08b3da7c5c3fe48e37",
     "url": "/Johnny_Promil_v2/index.html"
   }
 ];
