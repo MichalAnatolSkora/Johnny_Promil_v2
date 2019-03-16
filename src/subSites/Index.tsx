@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Button, Card, Jumbotron, Container, CardDeck, Navbar, Nav, Image, FormControl, NavDropdown } from 'react-bootstrap';
+import { Button, Card, Jumbotron, Container, CardDeck, Navbar, Nav, Image, FormControl, NavDropdown, Carousel } from 'react-bootstrap';
 import twoBeers from './../graphics/580b57fbd9996e24bc43c090.png'
 import oneBeer from './../graphics/580b57fbd9996e24bc43c091.png'
 import beerToGlass from './../graphics/beer-3803425_1920.jpg'
+import deskBallantines from './../graphics/alcohol-1961542_640_cut.jpg'
 
 class Index extends Component {
   render() {
@@ -10,7 +11,8 @@ class Index extends Component {
       backgroundColor: "transparent",
       paddingTop: "80px",
       paddingBottom: "20px",
-      margin: "0px"
+      margin: "0px",
+      maxheight: "100px"
     };
 
     const jumbotronStyle = {
@@ -26,6 +28,48 @@ class Index extends Component {
 
     return <>
       <Jumbotron style={headerJumbotronStyle} fluid>
+        <Container>
+          <Carousel>
+            <Carousel.Item>
+              <img
+            className="d-block w-100"
+            src={deskBallantines}
+            alt="First slide"
+          />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+            className="d-block w-100"
+            src={deskBallantines}
+            alt="Third slide"
+          />
+
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+            className="d-block w-100"
+            src={deskBallantines}
+            alt="Third slide"
+          />
+
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Container>
+      </Jumbotron>
+
+      <Jumbotron style={jumbotronStyle} fluid>
         <Container>
           <Card bg="light" border="warning" style={cardStyle} className="text-center p-4">
             <div className="grid-container">

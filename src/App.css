@@ -11,19 +11,19 @@
   margin: 0;
 }
 
-html, body {
+html, body, .root {
   height: 100%;
 }
-.page-wrap {
+.root {
 min-height: 100%;
 /* equal to footer height */
   margin-bottom: -70px; 
 }
-.page-wrap:after {
+.root:after {
 content: "";
 display: block;
 }
-.site-footer, .page-wrap:after {
+.site-footer, .root:after {
 /* .push must be the same height as footer */
   height: 70px; 
 }

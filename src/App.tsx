@@ -13,8 +13,7 @@ class App extends React.Component<any, any> {
 
   private expanded: boolean = false;
 
-  constructor(props: any) {
-    super(props);
+  componentWillMount() {
     this.state = { expanded: false };
   }
 
