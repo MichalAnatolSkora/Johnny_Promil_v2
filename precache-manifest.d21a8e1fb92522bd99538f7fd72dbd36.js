@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/Johnny_Promil_v2/static/media/beer-3803425_1920.7a010d81.jpg"
   },
   {
+    "revision": "926a2662e0b69b5dcb32a65ac096b471",
+    "url": "/Johnny_Promil_v2/static/media/alcohol-1961542_640_cut.926a2662.jpg"
+  },
+  {
     "revision": "36b5651f1628d9e8bb8217fe0cb17f83",
     "url": "/Johnny_Promil_v2/static/media/580b57fbd9996e24bc43c091.36b5651f.png"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/Johnny_Promil_v2/static/js/runtime~main.17d4ceeb.js"
   },
   {
-    "revision": "8eba485afeb68e3a161a",
-    "url": "/Johnny_Promil_v2/static/js/main.8eba485a.chunk.js"
+    "revision": "2be9b781ba4c2cffdfd5",
+    "url": "/Johnny_Promil_v2/static/js/main.2be9b781.chunk.js"
   },
   {
-    "revision": "ee38df64a104d2d8aafa",
-    "url": "/Johnny_Promil_v2/static/js/2.ee38df64.chunk.js"
+    "revision": "600e933c1ed78ea7d5eb",
+    "url": "/Johnny_Promil_v2/static/js/2.600e933c.chunk.js"
   },
   {
-    "revision": "8eba485afeb68e3a161a",
+    "revision": "2be9b781ba4c2cffdfd5",
     "url": "/Johnny_Promil_v2/static/css/main.3c30e9b0.chunk.css"
   },
   {
-    "revision": "a50d2055b7807fd70bbbdd0d14c5612e",
+    "revision": "dc9e994703d6910df68d94b7fe8d7464",
     "url": "/Johnny_Promil_v2/index.html"
   }
 ];

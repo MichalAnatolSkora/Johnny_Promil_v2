@@ -1,17 +1,18 @@
 {
   "main.css": "/Johnny_Promil_v2/static/css/main.3c30e9b0.chunk.css",
-  "main.js": "/Johnny_Promil_v2/static/js/main.8eba485a.chunk.js",
-  "main.js.map": "/Johnny_Promil_v2/static/js/main.8eba485a.chunk.js.map",
+  "main.js": "/Johnny_Promil_v2/static/js/main.2be9b781.chunk.js",
+  "main.js.map": "/Johnny_Promil_v2/static/js/main.2be9b781.chunk.js.map",
   "runtime~main.js": "/Johnny_Promil_v2/static/js/runtime~main.17d4ceeb.js",
   "runtime~main.js.map": "/Johnny_Promil_v2/static/js/runtime~main.17d4ceeb.js.map",
-  "static/js/2.ee38df64.chunk.js": "/Johnny_Promil_v2/static/js/2.ee38df64.chunk.js",
-  "static/js/2.ee38df64.chunk.js.map": "/Johnny_Promil_v2/static/js/2.ee38df64.chunk.js.map",
+  "static/js/2.600e933c.chunk.js": "/Johnny_Promil_v2/static/js/2.600e933c.chunk.js",
+  "static/js/2.600e933c.chunk.js.map": "/Johnny_Promil_v2/static/js/2.600e933c.chunk.js.map",
   "index.html": "/Johnny_Promil_v2/index.html",
-  "precache-manifest.2dc1509dc406037abdfabce26162562f.js": "/Johnny_Promil_v2/precache-manifest.2dc1509dc406037abdfabce26162562f.js",
+  "precache-manifest.d21a8e1fb92522bd99538f7fd72dbd36.js": "/Johnny_Promil_v2/precache-manifest.d21a8e1fb92522bd99538f7fd72dbd36.js",
   "service-worker.js": "/Johnny_Promil_v2/service-worker.js",
   "static/css/main.3c30e9b0.chunk.css.map": "/Johnny_Promil_v2/static/css/main.3c30e9b0.chunk.css.map",
   "static/media/53176126_1938901816235260_7024924478719131648_n.jpg": "/Johnny_Promil_v2/static/media/53176126_1938901816235260_7024924478719131648_n.092c1087.jpg",
   "static/media/580b57fbd9996e24bc43c090.png": "/Johnny_Promil_v2/static/media/580b57fbd9996e24bc43c090.136fe05c.png",
   "static/media/580b57fbd9996e24bc43c091.png": "/Johnny_Promil_v2/static/media/580b57fbd9996e24bc43c091.36b5651f.png",
+  "static/media/alcohol-1961542_640_cut.jpg": "/Johnny_Promil_v2/static/media/alcohol-1961542_640_cut.926a2662.jpg",
   "static/media/beer-3803425_1920.jpg": "/Johnny_Promil_v2/static/media/beer-3803425_1920.7a010d81.jpg"
 }
