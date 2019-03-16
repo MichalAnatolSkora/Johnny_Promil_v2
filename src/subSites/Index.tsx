@@ -32,10 +32,10 @@ class Index extends Component {
           <Carousel>
             <Carousel.Item>
               <img
-            className="d-block w-100"
-            src={deskBallantines}
-            alt="First slide"
-          />
+                className="d-block w-100"
+                src={deskBallantines}
+                alt="First slide"
+              />
               <Carousel.Caption>
                 <h3>First slide label</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -43,10 +43,10 @@ class Index extends Component {
             </Carousel.Item>
             <Carousel.Item>
               <img
-            className="d-block w-100"
-            src={deskBallantines}
-            alt="Third slide"
-          />
+                className="d-block w-100"
+                src={deskBallantines}
+                alt="Third slide"
+              />
 
               <Carousel.Caption>
                 <h3>Second slide label</h3>
@@ -55,10 +55,10 @@ class Index extends Component {
             </Carousel.Item>
             <Carousel.Item>
               <img
-            className="d-block w-100"
-            src={deskBallantines}
-            alt="Third slide"
-          />
+                className="d-block w-100"
+                src={deskBallantines}
+                alt="Third slide"
+              />
 
               <Carousel.Caption>
                 <h3>Third slide label</h3>
